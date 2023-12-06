@@ -1,4 +1,4 @@
-import colors from "tailwindcss/colors"
+import colors from "tailwindcss/colors";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -7,18 +7,18 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: colors.orange[300],
+          default: colors.orange[300],
           hover: colors.orange[400],
           text: colors.orange[500],
-          neutral: colors.neutral[100]
+          neutral: colors.neutral[100],
         },
         ghost: {
           hover: colors.neutral[300],
+          border: colors.neutral[400],
           text: colors.neutral[500],
-        }
+        },
       },
     },
   },
   plugins: [],
-}
-
+};

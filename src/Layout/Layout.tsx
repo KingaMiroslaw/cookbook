@@ -1,7 +1,9 @@
+import PageHeader from "../components/PageHeader";
+
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="max-h-screen flex flex-col">
-      {/* Header component */}
+      <PageHeader />
       <div>{children}</div>
     </div>
   );
