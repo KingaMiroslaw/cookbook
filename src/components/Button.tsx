@@ -6,7 +6,7 @@ const buttonStyles = cva("p-2.5", {
   variants: {
     variant: {
       primary: [
-        "bg-primary",
+        "bg-primary-default",
         "text-primary-text",
         "hover:bg-primary-hover",
         "hover:text-primary-neutral",
