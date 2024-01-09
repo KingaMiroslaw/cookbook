@@ -2,9 +2,9 @@ import PageHeader from "../components/PageHeader";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="max-h-screen flex flex-col">
+    <div className="max-h-screen flex flex-col overflow-hidden">
       <PageHeader />
-      <div>{children}</div>
+      <div className="overflow-auto">{children}</div>
     </div>
   );
 };
