@@ -8,7 +8,7 @@ export const mealsApi = createApi({
   endpoints: (builder) => ({
     getMeals: builder.query<any, void>({
       query: () =>
-        `/recipes/random?number=10?apiKey=${process.env.REACT_APP_MEALS_API_KEY}`,
+        `/recipes/random?apiKey=${process.env.REACT_APP_MEALS_API_KEY}&number=2`,
     }),
   }),
 });

@@ -1,12 +1,8 @@
 import { useGetMealsQuery } from "../../api/meals-api/meals-api";
-
-type Random = {
-  title: string;
-};
+import { Random } from "../../types/Random";
 
 const HomePage = () => {
   const { data: randomMeals = [] } = useGetMealsQuery();
-  console.log(randomMeals);
 
   return (
     <div>
